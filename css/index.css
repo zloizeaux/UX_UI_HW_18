@@ -1,0 +1,323 @@
+/*FONTS*/
+
+h1 {font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:48px; }
+h2 {font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:36px; font-variant: small-caps;}
+h3  {font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:24px; font-variant: small-caps; font-weight: thin;}
+p {font-family:Arial, Helvetica, sans-serif; font-size:16px;}
+
+li {font-family:Georgia, 'Times New Roman', Times, serif; font-size:14px; font-variant: small-caps;}
+
+/*BUTTONS-*/
+
+button{
+    font-family:Georgia, 'Times New Roman', Times, serif; 
+    font-size:14px; 
+    font-variant:small-caps; 
+    background-color: #FFFFFF; 
+    border: 2px solid #FEBB76;
+    padding: 8px 20px;
+    text-align:center;
+    border-radius: 12px;
+    color: #FA6B31;}
+
+button:hover {
+    background-color:#ffffff;
+    border:2px solid #FA6B31;  }
+
+/*HOMEPAGE NAVIGATION BAR*/
+
+ul {
+    list-style-type:none; 
+    margin:0; 
+    padding:0;}
+
+li{
+    float:right; 
+    padding:8px;}
+
+#name{
+    float:left;
+    width: 70%;
+    margin:8px;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    font-size:14px; 
+    font-variant: small-caps; }
+
+.navigation{float:top;
+    background-color: #ffffff;
+    border-bottom: 2px solid #FA6B31;
+    height: 25px;}
+
+/*HOMEPAGE HERO SECTION*/
+
+.heroimg{ height: 450px;   
+    margin-right:10px;
+    margin-top:25px;}
+
+.hero-left{
+    width: 48%; 
+    float: left; 
+    text-align:right; 
+    height:500px;}
+
+.hero-right{
+    height:500px;
+    width:48%;
+    float:left;
+    text-align: left;
+    margin-left:10px;
+    margin-bottom: 5px }
+
+.Hey {margin-top:150px;
+    border-bottom: 5px solid #FEEA80;}
+
+/*HOMEPAGE MY WORK SECTION*/
+
+.mywork{
+    text-align: center;
+     border-bottom: 2px solid #FA6B31; 
+     width:60%;
+     margin-left:20%;
+     margin-right:20%
+    }
+
+.project-image{
+    display:block; 
+    height: 400px; 
+    float:left; 
+    margin-top:10px; 
+    margin-bottom:10px; 
+    margin-left:10px;   }
+
+.project-left {
+    display:block; 
+    float: left; 
+    width: 48%; 
+    text-align:right;
+    margin-top:100px;
+    margin-bottom:100px;
+    margin-right:10px; }
+
+.project-title {border-bottom: 1px solid #A9C89C;}
+
+.project-right {
+    float:left; 
+    width:48%;}
+
+
+/*FOOTER*/
+
+.footerul{
+    list-style-type:none; 
+    margin:0; 
+    padding:0; 
+    float:left;}
+
+.buttontop {
+    float:right; 
+    margin:8px;}
+
+.footer {
+    border-top: 2px solid #FA6B31;
+    height:50px;
+    clear: both;}
+
+
+
+/*ABOUT ME PAGE*/
+
+/*ABOUT HERO*/
+
+.flexContainerhero{
+    display:flex;
+    height:auto;
+    margin-left:15%;
+    margin-right: 15%;
+    margin-top:25px;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid #FA6B31;
+    }
+
+.herowords{
+    width: 50%;
+    height: 475px;
+    background-color:white;
+    /*border:2px solid #FA6B31;*/
+    text-align: center;}
+
+.herowords h2{border-bottom: 5px solid #FEEA80; }
+
+.heroimage{margin:10px;
+    padding: 10px;
+    width: 50%;
+    height: 475px;
+    background-color: white;
+    /*border:2px solid #FA6B31;*/
+    text-align: left;}
+
+.aboutphoto{height: 475px; }
+
+
+
+/*ABOUT UX SKILLS*/
+
+#abouthighlight{color: #FA6B31 }
+
+.flexContainer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    background-color: white;
+    /*border: 2px solid #FA6B31; */
+    margin: 10px;
+    margin-bottom:0px;
+    padding: 10px;
+}
+
+.skill{
+    margin: 30px;
+    padding: 10px;
+    width: 200px;
+    height: 350px;
+    background-color: white;
+    /*border:2px solid #FA6B31;*/
+    text-align: center;
+}
+
+.skill h3{
+    border-bottom:2px solid #A9C89C;
+}
+
+.flexContainer2{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:auto;
+    background-color:white;
+    border-top: 2px solid #FA6B31;
+    margin-left: 25%;
+    margin-right:25%;
+    padding:10px;
+}
+
+.secondsection{
+    margin: 30px;
+    padding: 10px;
+    width: 200px;
+    height: 350px;
+    background-color: white;
+   /* border: 2px solid #FA6B31;*/
+    text-align: center;
+}
+
+.secondsection h3{
+    border-bottom:2px solid #A9C89C;
+}
+
+.secondsection ul {
+    list-style-type:none; 
+    margin:0; 
+    padding:0;
+}
+
+.secondsection li{
+    float:none;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:16px;
+    font-variant: normal;
+    }
+
+
+/*MY WORK PAGE*/
+
+#workhighlight{color:#FA6B31}
+#myWork{
+    height:auto;
+}
+
+ #myWork h2{
+     border-bottom:5px solid #FEEA80;
+     text-align: center;
+     width:60%;
+     margin-left:20%;
+     margin-right:20%;
+     margin-bottom:0;
+ }
+
+
+.myworkimg{height:300px;}
+
+#workGrid{
+    margin: 5px;;
+    margin-left:25%;
+    margin-right:25%;
+    display:grid;
+    grid-template-rows:25% 25% 25% 25%;
+    grid-template-columns:50% 50%;
+    grid-template-areas: 
+        "WGE1 WGE2"
+        "NSA1 NSA2"
+        "MM1 MM2"
+        "GT1 GT2";
+    background-color: white;}
+
+ #WGE1 h3, #NSA1 h3, #MM1 h3, #GT1 h3{
+     border-bottom:2px solid #A9C89C; }
+
+#WGE1, #NSA1, #MM1, #GT1{
+    text-align:center;
+    margin-top:10%;
+    margin-bottom:10%;
+    margin-left:10%;
+    margin-right:0%;}
+
+   
+#WGE1{grid-area: WGE1;}
+
+#WGE2{grid-area: WGE2;}
+
+#NSA1{grid-area: NSA1;}
+
+#NSA2{grid-area: NSA2;}
+
+#MM1{grid-area: MM1;}
+
+#MM2{grid-area: MM2;}
+
+#GT1{grid-area: GT1;}
+
+#GT2{grid-area: GT2;}
+
+.workGridArea{
+    background-color: white;
+    margin: 10px;
+    
+  }
+
+
+@media only screen and (max-width: 600px){
+    #workGrid{
+        margin: 5px;;
+        display:grid;
+        grid-template-rows:12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
+        grid-template-columns:100%;
+        grid-template-areas: 
+            "WGE2"
+            "WGE1"
+            "NSA2"
+            "NSA1"
+            "MM2"
+            "MM1"
+            "GT2"
+            "GT1";
+        background-color: white;} 
+    
+   .workGridArea{
+        text-align:center;
+    }
+    }
